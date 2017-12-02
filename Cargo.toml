@@ -11,8 +11,8 @@ name = "01_2"
 
 [[bin]]
 name = "02_1"
-
-
+[[bin]]
+name = "02_2"
 
 
 [dependencies]
