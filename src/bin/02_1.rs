@@ -23,7 +23,7 @@ fn main() {
     let mut numbers = Vec::new();
 
     let mut row_index = 1;
-    for row in matrix.iter() {
+    for row in &matrix {
         let mut largest = row.first().unwrap();
         let mut smallest = row.first().unwrap();
 
