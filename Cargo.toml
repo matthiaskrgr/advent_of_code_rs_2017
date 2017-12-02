@@ -3,16 +3,22 @@ name = "advent_of_code_2017_rs"
 version = "0.1.0"
 authors = ["Matthias Krüger <matthias.krueger@famsik.de>"]
 
+# Friday 01.12
 [[bin]]
-name = "01_1"
+name = "day1_1"
+path = "src/day1/1.rs"
 [[bin]]
-name = "01_2"
+name = "day1_2"
+path = "src/day1/2.rs"
 
+# Saturday 02.12
+[[bin]]
+name = "day2_1"
+path = "src/day2/1.rs"
+[[bin]]
+name = "day2_2"
+path = "src/day2/2.rs"
 
-[[bin]]
-name = "02_1"
-[[bin]]
-name = "02_2"
 
 
 [dependencies]
