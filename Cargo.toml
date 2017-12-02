@@ -6,4 +6,7 @@ authors = ["Matthias Krüger <matthias.krueger@famsik.de>"]
 [[bin]]
  name = "01_1"
 
+ [[bin]]
+  name = "01_2"
+
 [dependencies]
