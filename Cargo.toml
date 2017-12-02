@@ -1,0 +1,9 @@
+[package]
+name = "advent_of_code_2017_rs"
+version = "0.1.0"
+authors = ["Matthias Krüger <matthias.krueger@famsik.de>"]
+
+[[bin]]
+ name = "01"
+
+[dependencies]
