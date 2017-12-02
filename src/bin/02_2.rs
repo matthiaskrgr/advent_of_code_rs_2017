@@ -22,13 +22,11 @@ fn main() {
 
     let mut numbers = Vec::new();
 
-    //println!("{}", 8 % 2 == 0);
-
     let mut row_index = 1;
     for row in &matrix {
         println!("row: {}", row_index);
 
-         for number_1 in row.iter() {
+        for number_1 in row.iter() {
             for number_2 in row.iter() {
 
                 if number_1 == number_2 {
@@ -44,13 +42,10 @@ fn main() {
                     numbers.push(res);
                     println!("{} / {} == {}", number_1, number_2, res);
                 }
-
-
-            } // row
-        }
+            } // row number 2
+        } // row number 1
         row_index += 1;
-
-    }
+    } // for row in matrix
 
     println!("numbers: {:?}", numbers);
 
