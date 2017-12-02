@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["Matthias Krüger <matthias.krueger@famsik.de>"]
 
 [[bin]]
- name = "01"
+ name = "01_1"
 
 [dependencies]
